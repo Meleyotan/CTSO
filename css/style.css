@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "metropolis";
+  src: url("fonts/metropolis.woff");
+}
+
+body,
+* {
+  font-family: metropolis;
+  background: #2445a6;
+  box-sizing: border-box;
+}
+
+.overall-container {
+  padding: 10px 128px 64px 128px;
+}
+
+/* Navigation header */
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.brand-name-tl {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.nav-button {
+  height: 44px;
+  border-radius: 25px;
+  font-family: metropolis;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.head-nav-button-container {
+  margin-left: auto;
+}
+
+.button-1 {
+  background-color: transparent;
+  width: 86px;
+  border: 1.5px solid #7095f5;
+  margin-right: 14px;
+}
+
+.button-2 {
+  width: 128px;
+  border: 1px solid #7997ff;
+  background: #5d85ff;
+}
+
+/* Landing */
+
+.landing-container {
+  color: #ffffff;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.landing-side-list {
+  text-transform: uppercase;
+  color: #88a6ff;
+  font-size: 14px;
+}
+.custom-counter {
+  list-style: decimal-leading-zero;
+}
+
+.side-nav {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+}
+.landing-paragraph {
+  width: 656px;
+  height: 224px;
+  color: #ffffff;
+  font-family: Metropolis;
+  font-size: 112px;
+  font-weight: 800;
+  line-height: 112px;
+  letter-spacing: -8px;
+  margin-left: 40px;
+}
+
+/* Quote */
+.quote {
+  text-align: right;
+  line-height: 30px;
+  margin-left: auto;
+  width: 400px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* First Section */
+.coin-section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+  padding-top: 128px;
+  color: #ffffff;
+}
+
+.rectangle {
+  width: 320px;
+  height: 448px;
+}
+
+.bitcoin-rectangle {
+  border-left: 4px solid #ffffff;
+  background: #f64b30;
+}
