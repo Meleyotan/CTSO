@@ -11,7 +11,7 @@ body,
 }
 
 .overall-container {
-  padding: 10px 128px 64px 128px;
+  padding: 0.625rem 8rem 4rem 8rem;
 }
 
 /* Navigation header */
@@ -47,6 +47,10 @@ body,
   width: 86px;
   border: 1.5px solid #7095f5;
   margin-right: 14px;
+}
+
+.button-1:hover {
+  background-color: #88a6ff;
 }
 
 .button-2 {
@@ -107,14 +111,46 @@ body,
   grid-gap: 20px;
   padding-top: 128px;
   color: #ffffff;
+  /* overflow-x: scroll;
+  overflow-y: hidden; */
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #88a6ff;
+}
+*::-webkit-scrollbar-track {
+  background: #2445a6;
 }
 
 .rectangle {
   width: 320px;
   height: 448px;
+  border-left: 4px solid #ffffff;
+  margin-left: 40px;
+  padding-left: 40px;
 }
 
 .bitcoin-rectangle {
-  border-left: 4px solid #ffffff;
-  background: #f64b30;
+  /* background: #f64b30; */
+}
+
+.bitcoin-rectangle-button {
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: #f64b30;
+  background-color: #ffffff;
+}
+
+.coin-rectangle-button {
+  border-radius: 25px;
+}
+
+.bitcoin-rectangle-words {
+  padding: 20px 0;
+}
+
+.rectangle-title {
+  font-size: 48px;
 }
